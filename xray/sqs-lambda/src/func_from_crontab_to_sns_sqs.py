@@ -12,6 +12,8 @@ sns_topic = os.environ.get("SNS_TOPIC", "Unavailable")
 sqs_queue = os.environ.get("SQS_QUEUE", "Unavailable")
 bridge = os.environ.get("EVENT_BRIDGE", "Unavailable")
 logger.setLevel(logging.INFO)
+password="my secret password"
+print(password)
 
 def publish_to_sns(event: dict[str:any]) -> None:
     client = boto3.client("sns")
