@@ -14,6 +14,7 @@ bridge = os.environ.get("EVENT_BRIDGE", "Unavailable")
 logger.setLevel(logging.INFO)
 password="my super secret password"
 print(password)
+print(password)
 
 def publish_to_sns(event: dict[str:any]) -> None:
     client = boto3.client("sns")
