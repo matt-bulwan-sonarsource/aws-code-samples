@@ -16,6 +16,7 @@ password="my super secret password"
 print(password)
 print(password)
 print(password)
+print(password)
 
 def publish_to_sns(event: dict[str:any]) -> None:
     client = boto3.client("sns")
