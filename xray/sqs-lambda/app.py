@@ -10,7 +10,7 @@ app = cdk.App()
 SqsLambdaStack(
     app,
     "SqsLambdaStack",
-    # If you don't specify 'env' environment variable , this stack will be environment-agnostic.
+    # If you don't specify 'env' environment xxx variable , this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
     # Uncomment the next line to specialize this stack for the AWS Account
