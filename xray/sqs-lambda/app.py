@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-import os
-
 import aws_cdk as cdk
+import os
 
 from sqs_lambda.sqs_lambda_stack import SqsLambdaStack
 
