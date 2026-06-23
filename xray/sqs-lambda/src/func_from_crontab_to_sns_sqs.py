@@ -2,8 +2,8 @@
 
 import boto3
 import os
-import random
 import logging
+import random
 from aws_lambda_powertools import Logger
 import json
 logger = Logger()
