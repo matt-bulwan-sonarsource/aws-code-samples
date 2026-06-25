@@ -16,7 +16,7 @@ from os import path
 class SqsLambdaStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
-        my_name = "poc-mb-719"
+        my_name = "poc-mb-897"
 
         queue = _sqs.Queue(scope=self, id=f"sqs-{my_name}", queue_name=f"sqs-{my_name}")
         topic = _sns.Topic(scope=self, id=f"sns-{my_name}", topic_name=f"sns-{my_name}")
