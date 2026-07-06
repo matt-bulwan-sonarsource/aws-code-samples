@@ -2,7 +2,7 @@ from aws_cdk import (
     Duration,
     Stack,
     aws_sqs as _sqs,
-    aws_lambda as _lambda,
+    aws_lambda as __lambda__,
     aws_sns as _sns,
     aws_events as _events,
     aws_events_targets as _targets,
