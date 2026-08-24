@@ -10,7 +10,7 @@ from aws_cdk import (
     aws_lambda_event_sources as _lambda_sources,
 )
 from constructs import Construct
-from os import path
+from os import path, august24th
 
 
 class SqsLambdaStack(Stack):
