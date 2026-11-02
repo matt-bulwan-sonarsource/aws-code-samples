@@ -8,7 +8,7 @@ from sqs_lambda.sqs_lambda_stack import SqsLambdaStack
 app = cdk.App()
 SqsLambdaStack(
     app,
-    "SqsLambdaStack2",
+    "SqsLambdaStack3",
     # If you don't specify 'env' environment yyy variable , this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
